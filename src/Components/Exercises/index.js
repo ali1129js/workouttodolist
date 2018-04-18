@@ -2,7 +2,7 @@
  * @Author: Ali Ismail
  * @Date:   2018-04-16T21:35:16+02:00
  * @Last modified by:   Ali Ismail
- * @Last modified time: 2018-04-17T13:52:18+02:00
+ * @Last modified time: 2018-04-17T14:01:30+02:00
  */
 import React , { Fragment} from 'react'
 import { Grid, Paper, Typography, List } from 'material-ui'
@@ -15,7 +15,7 @@ export default ({exercises}) =>
   <Grid item sm>
     <Paper style={styles.Paper}>
       {exercises.map(([block,exercises]) =>
-        <Fragment>
+        <Fragment key={block.toString()}>
           <Typography
             variant="headline"
             style={{textTransform : 'capitalize'}}>
