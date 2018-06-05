@@ -2,13 +2,13 @@
  * @Author: Ali Ismail
  * @Date:   2018-04-16T21:35:16+02:00
  * @Last modified by:   Ali
- * @Last modified time: 2018-06-05T13:22:54+02:00
+ * @Last modified time: 2018-06-05T13:28:29+02:00
  */
 import React , { Fragment} from 'react'
 import { Grid, Paper, Typography, List } from '@material-ui/core'
 import { ListItem, ListItemText} from '@material-ui/core'
 const styles = {
-  Paper : {padding: 20, marginTop: 10, marginBottom: 10, hight:500, overflow:'auto'}
+  Paper : {padding: 20, marginTop: 10, marginBottom: 10, height:400, overflowY:'auto'}
 }
 export default ({exercises}) =>
 <Grid container>
